@@ -1,0 +1,66 @@
+//////////////////////CIPHER HACKER EARTH//////////////////////////
+
+/*#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<ctype.h>
+#include<string.h>
+int main()
+{
+    char s[100];
+    int i,key,len,x,y;
+    printf("enter string\n");
+    scanf("%s",s);
+    //puts(s);
+    printf("key value ?\n");
+    scanf("%d",&key);
+    len=strlen(s);
+    for(i=0;i<len;i++)
+    {
+        if(s[i]>=65 && s[i]<=90)
+        {
+            x=s[i];
+            s[i]=NULL;
+            y=x+key;
+            if(y>90){
+                    while(y>90)
+                y=(y-90)+64;
+                //s[i]=y;
+                //printf("%c",s[i]);
+            }
+            s[i]=y;
+            printf("%c",s[i]);
+        }
+        else if(s[i]>=97 && s[i]<=122)
+        {
+            x=s[i];
+            s[i]=NULL;
+            y=x+key;
+            if(y>122){
+                    while(y>122)
+                y=(y-122)+96;
+                //s[i]=y;
+                //printf("%c",s[i]);
+            }
+            s[i]=y;
+            printf("%c",s[i]);
+        }
+        else if(s[i]>=48 && s[i]<=57)
+        {
+            x=s[i];
+            s[i]=NULL;
+            //s[i]=x+key;
+             y=x+key;
+            if(y>57){
+                    while(y>57)
+                y=(y-57)+47;
+                //s[i]=y;
+                //printf("%c",s[i]);
+            }
+            s[i]=y;
+            printf("%c",s[i]);
+        }
+        else
+            printf("%c",s[i]);
+    }
+}*/
